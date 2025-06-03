@@ -1,0 +1,12 @@
+.mobile-menu {
+  max-width: 80px;
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+  min-height: 24px;
+}
+
+.mobile-menu__link {
+  display: flex;
+  align-items: center;
+}
