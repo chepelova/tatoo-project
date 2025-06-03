@@ -1,0 +1,18 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-size: 18px;
+  line-height: 27px;
+  background-color: #f5ede7;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
