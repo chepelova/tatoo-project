@@ -4,9 +4,17 @@
   column-gap: 24px;
   align-items: center;
   min-height: 24px;
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
 }
 
 .mobile-menu__link {
   display: flex;
   align-items: center;
+}
+
+.mobile-menu__link:hover {
+  opacity: 0.5;
 }

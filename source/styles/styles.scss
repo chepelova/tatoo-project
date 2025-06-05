@@ -1,7 +1,9 @@
-@import "./blocks/visually-hidden.scss";
+@import "./common/variables.scss";
 @import "./common/global.scss";
+@import "./blocks/visually-hidden.scss";
 @import "./blocks/navigation.scss";
 @import "./blocks/page.scss";
 @import "./blocks/header.scss";
 @import "./blocks/mobile-menu.scss";
 @import "./blocks/user-menu.scss";
+@import "./blocks/popover.scss";

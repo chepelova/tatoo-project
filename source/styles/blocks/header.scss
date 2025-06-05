@@ -2,6 +2,11 @@
   display: block;
   width: 180px;
   height: 35px;
+
+  @media (min-width: $desktop-width) {
+    width: 248px;
+    height: 48px;
+  }
 }
 
 .header__container {
@@ -11,4 +16,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  @media (min-width: $desktop-width) {
+    max-width: 1110px;
+    flex-direction: row-reverse;
+    padding: 26px 0;
+    justify-content: start;
+    column-gap: 112px;
+    position: relative;
+  }
 }
