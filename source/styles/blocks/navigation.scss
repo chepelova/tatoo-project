@@ -12,12 +12,13 @@
 .navigation::after {
   content: '';
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: 1px;
   background-color: #e3e8ed;
   bottom: -4px;
-  left: 0;
-  transform: translateY(-50%);
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .navigation__container {

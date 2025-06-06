@@ -1,0 +1,124 @@
+.slider__title {
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: #e3e8ed;
+  max-width: 328px;
+
+  @media (min-width: $desktop-width) {
+    max-width: 444px;
+    margin-bottom: 13px;
+  }
+}
+
+.slider__description {
+  margin: 0;
+  margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #97a1b0;
+  max-width: 328px;
+
+  @media (min-width: $desktop-width) {
+    max-width: 444px;
+    margin-bottom: 0;
+  }
+}
+
+.slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.slider__button-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 4px;
+  margin-right: auto;
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    bottom: 21%;
+    right: 0;
+    column-gap: 2px;
+  }
+}
+
+.slider__button {
+  display: block;
+  width: 48px;
+  height: 48px;
+  background-color: #1a1a1a;
+  border: none;
+  background-image: url("../../images/arrow-slider.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.slider__button--next {
+  transform: rotate(180deg);
+}
+
+.slider__count {
+  display: block;
+  line-height: 18px;
+  letter-spacing: 2px;
+  color: #97a1b0;
+  width: 58px;
+  align-self: center;
+  text-align: center;
+  font-size: 18px;
+
+  @media (min-width: $desktop-width) {
+    align-self: self-start;
+  }
+}
+
+.slider__img-wrapper {
+  position: relative;
+  display: block;
+  height: 100%;
+  margin-bottom: 24px;
+  order: -1;
+
+  @media (min-width: $desktop-width) {
+    max-width: 1110px;
+    margin-bottom: 32px;
+  }
+}
+
+.slider__video-play {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 64px;
+  background-color: #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  border: none;
+  padding: 0;
+
+  @media (min-width: $desktop-width) {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.slider__video-play:hover {
+  fill: #29abe2;
+}
+
+.slider__text-wrapper {
+  @media (min-width: $desktop-width) {
+    margin-right: auto;
+  }
+}

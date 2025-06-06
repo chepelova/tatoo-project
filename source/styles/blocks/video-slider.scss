@@ -1,0 +1,8 @@
+.video-slider__container {
+  max-width: 328px;
+  margin: 0 auto;
+
+  @media (min-width: $desktop-width) {
+    max-width: 1110px;
+  }
+}

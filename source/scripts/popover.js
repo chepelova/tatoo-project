@@ -1,4 +1,4 @@
-const userMenu = document.querySelector('.user-menu');
+const userMenu = document.querySelector('.header__container');
 const hoverElement = userMenu.querySelector('.user-menu__item--repair');
 const popoverElement = userMenu.querySelector('.popover');
 
